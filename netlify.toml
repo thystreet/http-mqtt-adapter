@@ -1,0 +1,6 @@
+[template.environment]
+  SECRET_TOKEN = "Please enter the secret token you used for the device"
+  MQTT_HOST= "Enter mqtt url"
+  MQTT_PORT= "Enter mqtt port"
+  MQTT_USERNAME= "Enter username"
+  MQTT_PASSWORD= "Enter mqtt password"
