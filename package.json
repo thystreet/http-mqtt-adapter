@@ -1,9 +1,10 @@
 {
   "name": "http-mqtt-adapter",
   "version": "0.0.1",
-  "description": "This is an example application for accepting requests from thystreet.com and posting them on mqqtt client of your choice",
+  "description": "An example application for validating and publishing data from https://thystreet.com to mqtt server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

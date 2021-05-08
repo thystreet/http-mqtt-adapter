@@ -1,0 +1,26 @@
+{
+  "name": "Node.js Sample",
+  "description": "An example application for validating and publishing data from https://thystreet.com to mqtt server",
+  "repository": "https://github.com/thystreet/http-mqtt-adapter",
+  "logo": "https://thystreet.com/_next/image?url=%2Fsvg%2Fanimated-logo.svg&w=3840&q=75",
+  "keywords": ["thystreet", "iot", "node", "mqtt", "http", "device"],
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret token that was provided in device settings",
+      "generator": "secret"
+    },
+    "MQTT_HOST": {
+      "description": "MQTT host for your device"
+    },
+    "MQTT_PORT": {
+      "description": "MQTT port",
+      "value": 1883
+    },
+    "MQTT_USERNAME": {
+      "description": "Username for the mqtt host"
+    },
+    "MQTT_PASSWORD": {
+      "description": "Password for the mqtt host"
+    }
+  }
+}

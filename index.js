@@ -50,10 +50,9 @@ const thystreetListener = function (req, res) {
     // at this point, `body` has the entire request body stored in it as a string
     const signature = req.headers['x-thystreet-signature'];
     const deviceId = req.url;
-    if (req.url === 'status') {
-      res.writeHead(200);
-      res.end("Ok");
-      return
+    if (req.url === "/") {
+      res.writeHead(200, { "Content-Type": "text/html" });
+      res.end("Welcome to the homepage!");
     }
     res.setHeader("Content-Type", "text/plain");
     if (isRequestValid(data, signature)) {
