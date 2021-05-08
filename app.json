@@ -6,8 +6,7 @@
   "keywords": ["thystreet", "iot", "node", "mqtt", "http", "device"],
   "env": {
     "SECRET_TOKEN": {
-      "description": "A secret token that was provided in device settings",
-      "generator": "secret"
+      "description": "A secret token that was provided in device settings"
     },
     "MQTT_HOST": {
       "description": "MQTT host for your device"
