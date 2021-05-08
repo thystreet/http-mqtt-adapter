@@ -1,0 +1,23 @@
+{
+  "name": "http-mqtt-adapter",
+  "version": "0.0.1",
+  "description": "This is an example application for accepting requests from thystreet.com and posting them on mqqtt client of your choice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thystreet/http-mqtt-adapter.git"
+  },
+  "author": "ThyStreet",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/thystreet/http-mqtt-adapter/issues"
+  },
+  "homepage": "https://github.com/thystreet/http-mqtt-adapter#readme",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "mqtt": "^4.2.6"
+  }
+}
